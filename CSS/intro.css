@@ -1,0 +1,20 @@
+h4 {
+    font-size: 30px;
+}
+h2 {
+    color: rgb(4, 4, 4);
+}
+* {
+    /* THis is universal selector , whatever you write here is applied to averything */
+}
+
+body{
+    background-color: aliceblue;
+}
+.mid-text {
+    font-weight: bolder;
+    font-size: medium;
+}
+#head-text {
+    text-decoration: underline;
+}

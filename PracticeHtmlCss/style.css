@@ -1,0 +1,24 @@
+html {
+    /* Unless changed, every elemet has box-sizing as border-box */
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    /* We allow the child to follow the parent box sizing*/
+    box-sizing: inherit;
+}
+
+#demo {
+    width : 200px;
+    border: solid red 5px;
+    padding: 11px;
+    margin-bottom: 20px;
+}
+#demo1 {
+    width : 200px;
+    border: solid red 5px;
+    padding: 11px;
+}
+#demo3 {
+    width : 150px;
+    border: solid blue 15px;
+}

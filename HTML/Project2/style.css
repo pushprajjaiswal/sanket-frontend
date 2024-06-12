@@ -1,0 +1,38 @@
+   :root {
+    --cream : #ecdbad;
+    --sage : #c15143;
+    --deepgreen : #434343;
+    --taupe: #4b402a;
+    --eggshell : #f1facf;
+}
+
+/* '--' this is variable */
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color : black;
+    background-color: var(--eggshell);
+     
+}
+h1, h2,h3,h4 {
+    margin: 0;
+}
+
+#intro {
+    font-size: 1rem;
+    color : var(--sage);
+    line-height: 1.5;
+}
+
+.name span {
+    display: block;
+    color: #f1facf;
+    font-size: 4rem;
+}
